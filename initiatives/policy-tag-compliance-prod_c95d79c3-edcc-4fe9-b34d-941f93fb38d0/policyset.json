@@ -1,0 +1,92 @@
+{
+ "properties": {
+  "displayName": "policy-tag-compliance-prod",
+  "policyType": "Custom",
+  "description": "Require a tag on resource groups",
+  "metadata": {
+   "category": "Tag-Policy-Compliance",
+   "createdBy": "9e50d718-4e94-44ad-8cfa-1ac262b81b55",
+   "createdOn": "2020-06-08T21:47:24.3645007Z",
+   "updatedBy": "9e50d718-4e94-44ad-8cfa-1ac262b81b55",
+   "updatedOn": "2020-11-10T08:57:06.0543494Z",
+   "version": "1.0"
+  },
+  "parameters": {},
+  "policyDefinitions": [
+   {
+    "policyDefinitionReferenceId": "8738749716387991330",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/96670d01-0a4d-4649-9c89-2d3abc0a5025",
+    "parameters": {
+     "tagName": {
+      "value": "ApplicationName"
+     }
+    },
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "8377218639860378948",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/96670d01-0a4d-4649-9c89-2d3abc0a5025",
+    "parameters": {
+     "tagName": {
+      "value": "Approver"
+     }
+    },
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "8891439533089831566",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/96670d01-0a4d-4649-9c89-2d3abc0a5025",
+    "parameters": {
+     "tagName": {
+      "value": "BusinessUnit"
+     }
+    },
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "1910579278900699689",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/96670d01-0a4d-4649-9c89-2d3abc0a5025",
+    "parameters": {
+     "tagName": {
+      "value": "CostCenter"
+     }
+    },
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "10349216465148861754",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/96670d01-0a4d-4649-9c89-2d3abc0a5025",
+    "parameters": {
+     "tagName": {
+      "value": "Env"
+     }
+    },
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "13682961052563600507",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/96670d01-0a4d-4649-9c89-2d3abc0a5025",
+    "parameters": {
+     "tagName": {
+      "value": "Owner"
+     }
+    },
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "9057844276939857665",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/96670d01-0a4d-4649-9c89-2d3abc0a5025",
+    "parameters": {
+     "tagName": {
+      "value": "Requestor"
+     }
+    },
+    "groupNames": []
+   }
+  ],
+  "policyDefinitionGroups": []
+ },
+ "id": "/subscriptions/446ce8b8-9ef6-4873-84e7-75b08e0c6fd0/providers/Microsoft.Authorization/policySetDefinitions/c95d79c3-edcc-4fe9-b34d-941f93fb38d0",
+ "type": "Microsoft.Authorization/policySetDefinitions",
+ "name": "c95d79c3-edcc-4fe9-b34d-941f93fb38d0"
+}
